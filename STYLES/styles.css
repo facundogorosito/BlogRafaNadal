@@ -253,8 +253,8 @@
 }
 
 .imgrid {
-    height: 300px;
-    width: 325px;
+    height: 200px;
+    width: 200px;
     margin: 05px;
 }
 .imganima2 {
@@ -264,10 +264,11 @@
 }
 
 .imganima2:hover {
-    height: 500px;
-    width: 500px;
-    margin-left: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 05px;
 }
+
 /**TERMINA DISEÑO MOBILE**/
 
 /** EMPIEZA DISEÑO TABLET**/
