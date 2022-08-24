@@ -257,7 +257,17 @@
     width: 325px;
     margin: 05px;
 }
+.imganima2 {
+    -webkit-transition: all is ease;
+    -moz-transition: all is ease;
+    -o-transition: all is ease;
+}
 
+.imganima2:hover {
+    height: 500px;
+    width: 500px;
+    margin-left: 10px;
+}
 /**TERMINA DISEÑO MOBILE**/
 
 /** EMPIEZA DISEÑO TABLET**/
