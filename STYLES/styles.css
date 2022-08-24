@@ -249,17 +249,6 @@
     width: 200px;
     margin: 05px;
 }
-.imganima2 {
-    -webkit-transition: all is ease;
-    -moz-transition: all is ease;
-    -o-transition: all is ease;
-}
-.imganima2:hover {
-    height: 300px;
-    width: 300px;
-    margin: 05px;
-}
-
 /**TERMINA DISEÑO MOBILE**/
 
 /** EMPIEZA DISEÑO TABLET**/
@@ -371,27 +360,27 @@
 
     /**EMPIZA MAIN**/
 
-.main_section {
-    display:flex;
-    width: auto;
-    height: auto;
-    padding: 10px;
-}
+    .main_section {
+        display:flex;
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
 
 
-.element {
-    font-style: unset;
-    font-weight: bolder;
-    font-size: 20px;
-    font-weight: 10%;
-    text-align: center;
-    line-height: 1.4;
-    color: #f7f7f5;
-    margin: 20px;
-    background-color: rgba(216, 129, 15, 0.548);
-    padding: 10px;
-    border-radius: 10px;
-}
+    .element {
+        font-style: unset;
+        font-weight: bolder;
+        font-size: 20px;
+        font-weight: 10%;
+        text-align: center;
+        line-height: 1.4;
+        color: #f7f7f5;
+        margin: 20px;
+        background-color: rgba(216, 129, 15, 0.548);
+        padding: 10px;
+        border-radius: 10px;
+    }
 /**TERMINA MAIN**/
 
 /**EMPIEZA ASIDE**/
