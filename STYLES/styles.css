@@ -218,7 +218,11 @@
     line-height: 150%;
 }
 
+
+
 /* Diseño para mobile*/
+
+
 
 /** EMPIEZA PAG GALERIA**/
 
@@ -360,27 +364,27 @@
 
     /**EMPIZA MAIN**/
 
-    .main_section {
-        display:flex;
-        width: auto;
-        height: auto;
-        padding: 10px;
-    }
+.main_section {
+    display:flex;
+    width: auto;
+    height: auto;
+    padding: 10px;
+}
 
 
-    .element {
-        font-style: unset;
-        font-weight: bolder;
-        font-size: 20px;
-        font-weight: 10%;
-        text-align: center;
-        line-height: 1.4;
-        color: #f7f7f5;
-        margin: 20px;
-        background-color: rgba(216, 129, 15, 0.548);
-        padding: 10px;
-        border-radius: 10px;
-    }
+.element {
+    font-style: unset;
+    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 10%;
+    text-align: center;
+    line-height: 1.4;
+    color: #f7f7f5;
+    margin: 20px;
+    background-color: rgba(216, 129, 15, 0.548);
+    padding: 10px;
+    border-radius: 10px;
+}
 /**TERMINA MAIN**/
 
 /**EMPIEZA ASIDE**/
@@ -434,6 +438,13 @@
     font-style:inherit;
     text-align:center;
     margin: 25px;
+    
+}
+
+.img_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .element3 {
@@ -442,8 +453,10 @@
     align-items: center;
     color: #f7f7f5;
     text-align:center;
-    margin: 02px;
     font-size: x-large;
+    background-color: rgba(216, 129, 15, 0.548);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .section_img {
