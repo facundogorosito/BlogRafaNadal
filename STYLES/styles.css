@@ -141,24 +141,11 @@
 }
 /**TERMINA FOOTER**/
 
-@media screen  {
-
-}
-
 /**TERMINA DISEÑO PARA MOBILE**/
 
-/**DISEÑO PARA TABLETA**/
-@media screen and (min-width: 600px) and (orientation: portrait) {
-    .grilla {
-        grid-template-areas: 
-        "header header"
-        "main aside"
-        "footer footer"
-        ;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr 2fr;
-    }
-}
+
+
+/****DISEÑO DESKTOP***/
 @media screen and (min-width: 1200px) {
     .grilla {
         grid-template-areas: 
@@ -168,14 +155,40 @@
         ;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 2fr 1fr 2fr;
+        height: 100vh;
+        }
+    /**EMPIEZA ASIDE**/
+    .aside_grid{
+        transition: box-shadow 0.5s ease;
+        grid-area: aside;
+        display: flex;
+        justify-content: center;
+        }
+    .imgrafa {
+        width: 475px;
+        height: 950px;
+        border-radius: 02%;
+        margin: 20px;
+    }
+    .imganima:hover{
+        box-shadow: 2rem 1rem 1rem #d66f0f;
+    }
+    /**TERMINA ASIDE**/
+    .main_section {
+        display:flex;
+        justify-content: center;
+    }   
+    .element {
+        width: 700px;
+        height: 1025px;
+        color: #f7f7f5;
+        background-color: rgba(216, 129, 15, 0.548);
+        border-radius: 10px;
+        margin: 15px;
+    }
     }
     
 
-
-
-
-
-}
 
 /**EMPIEZA GRANDSLAMS**/
 
@@ -215,7 +228,11 @@
     line-height: 150%;
 }
 
+
+
 /* Diseño para mobile*/
+
+
 
 /** EMPIEZA PAG GALERIA**/
 
@@ -356,41 +373,8 @@
     }
 
     /**EMPIZA MAIN**/
-
-    .main_section {
-        display:flex;
-        width: auto;
-        height: auto;
-        padding: 10px;
-    }
-
-
-    .element {
-        font-style: unset;
-        font-weight: bolder;
-        font-size: 20px;
-        font-weight: 10%;
-        text-align: center;
-        line-height: 1.4;
-        color: #f7f7f5;
-        margin: 20px;
-        background-color: rgba(216, 129, 15, 0.548);
-        padding: 10px;
-        border-radius: 10px;
-    }
 /**TERMINA MAIN**/
 
-/**EMPIEZA ASIDE**/
-.imgrafa {
-    width: 700px;
-    height: auto;
-    border-radius: 02%;
-    margin: 20px;
-}
-.imganima:hover{
-    box-shadow: 2rem 1rem 1rem #d66f0f;
-}
-/**TERMINA ASIDE**/
 }
 
 
@@ -424,13 +408,51 @@
 
 
 /**EMPIEZA PAG DE ACADEMIA**/
+/** PAG DE INICO **/
 
+/* Diseño para mobile*/
+
+/**BODY**/
+.grilla5 {
+    background-image: url(../IMAGENES/ph2.jpg);
+    font-family: monospace;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 150px 500px 1fr 100px;
+    height: 100vh;
+}
+
+.header_grid{
+    grid-area: header;
+}
+
+.main_grid{
+    grid-area: main;
+}
+
+.footer_grid{
+    grid-area: footer;
+}
+
+/**TERMINA BODY**/
 .titulo3 {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #f7f7f5;
     font-style:inherit;
     text-align:center;
     margin: 25px;
+    
+}
+
+.img_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .element3 {
@@ -439,8 +461,10 @@
     align-items: center;
     color: #f7f7f5;
     text-align:center;
-    margin: 02px;
     font-size: x-large;
+    background-color: rgba(216, 129, 15, 0.548);
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .section_img {
