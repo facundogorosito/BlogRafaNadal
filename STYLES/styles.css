@@ -1,9 +1,21 @@
 /** PAG DE INICO **/
-
+.grilla {
+    font-family: monospace;
+    overflow-x: hidden;
+}
+.barradecontenido {
+    background-color: #504e4b;
+}
+.navegador1 ul li a {
+    font-size: 18px;
+}
+.navegador1 ul li a:hover {
+      color: #f97007;
+}
 /* Diseño para mobile*/
 
 /**BODY**/
-.grilla {
+/* .grilla {
     background-image: url(../IMAGENES/ph2.jpg);
     font-family: monospace;
     display: grid;
@@ -16,9 +28,9 @@
     grid-template-columns: 1fr;
     grid-template-rows: 150px 500px 1fr 100px;
     height: 100vh;
-}
+} */
 
-.header_grid{
+/* .header_grid{
     grid-area: header;
 }
 
@@ -35,26 +47,26 @@
 
 .footer_grid{
     grid-area: footer;
-}
+} */
 
-/**TERMINA BODY**/
+/* *TERMINA BODY*
 
 /**EMPIEZA HEADER*/
-.header {
+/* .header { */
     /* display: flex;
     flex-direction: column;
     align-items: center; */
-    background-color: #504e4b;
+    /* background-color: #504e4b;
     padding: 20px;
-}
+} */
 
-.titulo {
+/* .titulo {
     color: #f7f7f5;
     font-family: 'Inconsolata', monospace;
     font-size: 20px;
-}
+} */
 
-.header_nav {
+/* .header_nav {
     justify-content: space-between;
 }
 
@@ -82,7 +94,7 @@
 
 .header_nav ul li a:hover {
     color: #f97007;
-}
+} */
 
 /**TERMINA HEADER**/
 
@@ -90,7 +102,7 @@
 
 /**EMPIZA MAIN**/
 
-.main_section {
+/* .main_section {
     display:flex;
     width: auto;
     height: auto;
@@ -123,7 +135,7 @@
 /**TERMINA ASIDE**/
 
 /**EMPIEZA FOOTER**/
-.footer_nav {
+/* .footer_nav {
     display: flex;
     justify-content:space-between;
     padding: 30px;
@@ -172,7 +184,7 @@
 
 
 /**DISEÑO PARA DESKTOP**/
-
+/* 
 @media screen and (min-width: 1200px) {
     .grilla {
         grid-template-areas: 
@@ -191,7 +203,7 @@
     
         /**EMPIZA MAIN**/
     
-    .main_section {
+    /* .main_section {
         display:flex;
         justify-content: center;
 
@@ -202,13 +214,13 @@
         height:600px;
         margin: 05px;
         text-align: center;
-    }
+    } */
     
 
     /**TERMINA MAIN**/
     
     /**EMPIEZA ASIDE**/
-    .aside_grid {
+    /* .aside_grid {
         width: auto;
         height: auto;
     }
@@ -220,13 +232,11 @@
     }
     .imganima:hover{
         box-shadow: 2rem 1rem 1rem #ff7b00;
-    }
+    } */
     /**TERMINA ASIDE**/
     
     
-    /**TERMINA DISEÑO DESKTOP**/
-
-}
+    *TERMINA DISEÑO DESKTOP*
 
 
 /**EMPIEZA GRANDSLAMS**/
@@ -405,15 +415,37 @@
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: left;
+
 }
-
-
-
 
 
 /**EMPIEZA PAG DE ACADEMIA**/
 
-.grilla5 {
+.tamanañoacade {
+    height: 450px;
+    width: 450px;
+}
+.element3 {
+    min-width: auto;
+    color: #f7f7f5;
+    background-color: rgba(216, 129, 15, 0.548);
+    border-radius: 10px;
+}
+.linkaca {
+    list-style-type: none;
+}
+.links {
+    text-decoration: none;
+    color: #f7940a;
+    
+}
+
+.section_img2 {
+    height: 450px;
+    width: 450px;
+}
+
+/* .grilla5 {
     background-image: url(../IMAGENES/ph2.jpg);
     font-family: monospace;
     display: grid;
@@ -455,9 +487,6 @@
 }
 
 .element3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-width: auto;
     color: #f7f7f5;
     text-align:center;
@@ -501,4 +530,4 @@
     text-decoration: none;
     color: #f7f7f5;
     font-size: large;
-}
+} */
