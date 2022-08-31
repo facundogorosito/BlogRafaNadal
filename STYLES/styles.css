@@ -1,8 +1,4 @@
-/** PAG DE INICO **/
-.grilla {
-    font-family: monospace;
-    overflow-x: hidden;
-}
+
 .barradecontenido {
     background-color: #504e4b;
 }
@@ -12,6 +8,23 @@
 .navegador1 ul li a:hover {
       color: #f97007;
 }
+
+.piedepaginaa {
+    background-color: #504e4b;
+}
+
+/** PAG DE INICO **/
+.grilla {
+    font-family: monospace;
+    overflow-x: hidden;
+    background-image: url(../IMAGENES/fondoPag.jpg);
+
+}
+.contenedor {
+
+}
+
+
 /* Diseño para mobile*/
 
 /**BODY**/
@@ -123,11 +136,22 @@
 /**TERMINA MAIN**/
 
 /**EMPIEZA ASIDE**/
-
+.element {
+    font-style: unset;
+    font-weight: bolder;
+    font-size: 15px;
+    font-weight: 10%;
+    text-align: center;
+    line-height: 1.4;
+    color: #f7f7f5;
+    background-color: rgba(255, 119, 0, 0.66);
+    border-radius: 10px;
+}
 .imgrafa {
-    width: 350px;
-    height: 450px;
+    width: 500px;
+    height: auto;
     border-radius: 02%;
+    margin: 15px;
 }
 .imganima:hover{
     box-shadow: 2rem 1rem 1rem #d66f0f;
@@ -135,6 +159,19 @@
 /**TERMINA ASIDE**/
 
 /**EMPIEZA FOOTER**/
+
+.logotoro {
+    height: 70px;
+    width: 70px;
+}
+.socialesredes {
+        list-style-type: none;
+}
+.tamaniologo {
+    width: 35px;
+}
+
+
 /* .footer_nav {
     display: flex;
     justify-content:space-between;
@@ -335,26 +372,18 @@
 /** EMPIEZA PAG GALERIA**/
 
 .grilla3 {
-    background-image: url(../IMAGENES/ph2.jpg);
+    
     font-family: monospace;
-    display: grid;
-    grid-template-areas: 
-    "header"
-    "main"
-    "footer"
-    ;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 2fr;
-    height: 100vh;
+    overflow-x: hidden;   
+    background-image: url(../IMAGENES/fondoPag.jpg);
 }
-
-.div_imgs {
+/* .div_imgs {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto auto auto auto auto;
     justify-content: center;
     transition: box-shadow 0.5s ease;
-}
+} */
 
 .imgrid {
     height: 200px;
@@ -366,7 +395,7 @@
 /**TERMINA DISEÑO TABLET**/
 
 /**EMPIEZA DISEÑO DESKTOP**/
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .grilla3 {
         background-image: url(../IMAGENES/ph2.jpg);
         display: grid;
@@ -393,8 +422,7 @@
         width: 400px;
         height: 400px;
     }
-
-}
+ */
 /** EMPIEZA PAG DE CONTACTO **/
 
 .main_contactos {
@@ -421,6 +449,11 @@
 
 /**EMPIEZA PAG DE ACADEMIA**/
 
+.grilla5 {
+    overflow-x: hidden;
+    background-image: url(../IMAGENES/fondoPag.jpg);
+    font-family: monospace;
+}
 .tamanañoacade {
     height: 450px;
     width: 450px;
@@ -440,10 +473,6 @@
     
 }
 
-.section_img2 {
-    height: 450px;
-    width: 450px;
-}
 
 /* .grilla5 {
     background-image: url(../IMAGENES/ph2.jpg);
@@ -472,7 +501,7 @@
 }
 
 .titulo3 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     color: #f7f7f5;
     font-style:inherit;
     text-align:center;
