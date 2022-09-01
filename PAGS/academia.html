@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Academia</title>
-  <link rel="shortcut icon" href="../IMAGENES/logo.jpg">
+  <link rel="shortcut icon" href="/IMAGENES/logoPng.png">
   <!-- BOOSTRAP -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
@@ -29,8 +29,8 @@
             aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse col-10 " id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fondo-nav">
+          <div class="collapse navbar-collapse col-10 navegador2" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fondo-nav navegador2">
               <li class="nav-item">
                 <a class="nav-link active text-light" aria-current="page" href="../index.html">Inicio</a>
               </li>
@@ -56,34 +56,40 @@
       <h3 class="titulo3 text-center text-warning p-4 fs-3">Rafa Nadal Tennis Centre</h3>
     </section>
     <section class="section_padre">
-      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner d-flex text-center">
-          <div class="carousel-item active " data-bs-interval="3000">
-            <img src="../IMAGENES/programs3.jpg" alt="chicosPracticando" class="tamanañoacade img-fluid">
+      <div id="carouselExampleIndicators" class="carousel slide p-5" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/IMAGENES/academiaAnc.jpg" class="d-block w-100 tamanañoacade img-fluid text-center" alt="...">
           </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="../IMAGENES/programs1.jpg" alt="hombreEntrenando" class="tamanañoacade img-fluid">
+          <div class="carousel-item">
+            <img src="/IMAGENES/academiaA.jpg" class="d-block w-100 tamanañoacade img-fluid" alt="...">
           </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="../IMAGENES/mujerTenis.jpg" alt="mujerTenis" class="tamanañoacade img-fluid">
-          </div>
-          <div class="carousel-item" data-bs-interval="3000">
-            <img src="../IMAGENES/programs2.jpg" alt="hombreAyudando" class="tamanañoacade img-fluid">
+          <div class="carousel-item">
+            <img src="/IMAGENES/academiaBan.jpg" class="d-block w-100 tamanañoacade img-fluid" alt="...">
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-      <section>
-        <p class="element3 w-10 h-10 p-3 text-center fs-6">Tras abrir sus puertas en 2016, la Rafa Nadal Academy by Movistar se ha convertido
+      <section class="p-3">
+        <p class="element3 w-10 h-10 p-3 text-center fs-6 p-2 mb-2 mr-2">Tras abrir sus puertas en 2016, la Rafa Nadal
+          Academy by Movistar se ha convertido
           ya en uno de los centros deportivos de referencia a nivel mundial. Ubicada en Manacor, ciudad natal de Rafa
           Nadal, la Academia cuenta con unas instalaciones punteras y una infraestructura adaptada a los nuevos tiempos.
           Y todo ello en el corazón de Mallorca, un marco incomparable con una meteorología mediterránea idónea para la
@@ -105,14 +111,14 @@
           Además, disponemos de una localización perfecta a sólo 30 min del Aeropuerto de Palma de Mallorca y a 10
           minutos de la costa. </p>
       </section>
-      <main class="imagencentrada text-center">
-        <img class="img-fluid"
+      <main class="text-center">
+        <img class="img-fluid text-center  imgcentrada p-2"
           src="https://images.neobookings.com/1250x516/cms/rafanadalacademy.com/section/programa-destacado/pics/programa-destacado-9gwmkm3e6p.png"
           alt="academiaRafa.jpg">
       </main>
       <h3 class="element3 text-center p-3"> Para mas informacion ingresa a:</h3>
     </section>
-    <ul class="linkaotrapag text-center linkaca">
+    <ul class="text-center linkaca">
       <li>
         <a class="links" href="https://www.rafanadaltenniscentre.com/" target="_blank">HAZ CLICK</a>
       </li>
@@ -121,29 +127,41 @@
   <footer class="text-white py-4 piedepaginaa">
     <div class="container">
       <nav class="row">
-        <a href="#" class="col-4 text-reset text-uppercase d-flex-align-items-center"><img src="/IMAGENES/logotipo.png" alt="logonadal" class="img-logo mr-2 logotoro">By Facundo Gorosito©</a>
+        <a href="#" class="col-4 text-reset text-uppercase d-flex-align-items-center"><img
+            src="https://rafaelnadal.com/wp-content/uploads/2017/03/logo-rafa-nadal-white.png" alt="logonadal"
+            class="img-logo mr-2 logotoro">By Facundo Gorosito©</a>
         <ul class="col-4 list-unstyled">
         </ul>
         <ul class="col-4 list-unstyled socialesredes">
           <li class="font-weigt-bold text-uppercase">REDES SOCIALES</li>
           <div class="d-flex justify-conten-between">
             <!-- FB -->
-            <li><a href="https://es-la.facebook.com/Nadal" class="text-reset" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-            </svg></a></li>
+            <li><a href="https://es-la.facebook.com/Nadal" class="text-reset" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="35"
+                  height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                </svg></a></li>
             <!-- TWITTER-->
-            <li><a href="https://twitter.com/rafaelnadal" class="text-reset" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
-            </svg></li>
+            <li><a href="https://twitter.com/rafaelnadal" class="text-reset" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="35"
+                  height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <path
+                    d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+                </svg></li>
             <!-- INSTAGRAM-->
-            <li><a href="https://www.instagram.com/rafaelnadal/" class="text-reset" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="40" height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round" stroke-linejoin="round">
-              <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-              <rect x="4" y="4" width="16" height="16" rx="4" />
-              <circle cx="12" cy="12" r="3" />
-              <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
-            </svg></a></li>
+            <li><a href="https://www.instagram.com/rafaelnadal/" class="text-reset" target="_blank"><svg
+                  xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="35"
+                  height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff9300" fill="none" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                  <rect x="4" y="4" width="16" height="16" rx="4" />
+                  <circle cx="12" cy="12" r="3" />
+                  <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                </svg></a></li>
           </div>
       </nav>
     </div>
