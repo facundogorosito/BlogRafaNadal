@@ -1,12 +1,13 @@
-
 .barradecontenido {
     background-color: #504e4b;
 }
+
 .navegador1 ul li a {
     font-size: 18px;
 }
+
 .navegador1 ul li a:hover {
-      color: #f97007 !important;
+    color: #f97007 !important;
 }
 
 .piedepaginaa {
@@ -34,6 +35,7 @@
     background-color: rgba(255, 119, 0, 0.66);
     border-radius: 10px;
 }
+
 /**TERMINA MAIN**/
 
 /**EMPIEZA ASIDE**/
@@ -43,60 +45,62 @@
     border-radius: 02%;
     margin: 15px;
 }
-.imganima:hover{
+
+.imganima:hover {
     box-shadow: 2rem 1rem 1rem #d66f0f;
 }
+
 /**TERMINA ASIDE**/
 
 /**EMPIEZA FOOTER**/
 
 .logotoro {
-<<<<<<< HEAD
-    height: 35px;
-    width: 35px;
-=======
     height: 45px;
     width: 45px;
->>>>>>> version2
 }
+
 .socialesredes {
-        list-style-type: none;
+    list-style-type: none;
 }
+
 .tamaniologo {
     width: 35px;
 }
 
 /**EMPIEZA GRANDSLAMS**/
 .grilla2 {
-        background-image: url(../IMAGENES/ph2.jpg);
-        font-family: monospace;
-        display: grid;
-        grid-template-areas: 
+    background-image: url(../IMAGENES/ph2.jpg);
+    font-family: monospace;
+    display: grid;
+    grid-template-areas:
         "header"
         "main"
         "section"
         "footer"
-        ;
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr 1fr 2fr;
-        height: 100vh;
-    }
+    ;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 2fr;
+    height: 100vh;
+}
 
 .titulo2 {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #f7f7f5;
-    font-style:inherit;
+    font-style: inherit;
     text-align: center;
 
 }
+
 .tablas {
     font-family: Arial, Helvetica, sans-serif;
     border: none;
     text-align: center;
 }
+
 .tr_border {
     color: #d66f0f;
 }
+
 .td_class {
     border: none;
     color: #ffffff;
@@ -125,11 +129,12 @@
 /** EMPIEZA PAG GALERIA**/
 
 .grilla3 {
-    
+
     font-family: monospace;
-    overflow-x: hidden;   
+    overflow-x: hidden;
     background-image: url(../IMAGENES/fondoPag.jpg);
 }
+
 .imgrid {
     height: 200px;
     width: 200px;
@@ -137,23 +142,24 @@
 }
 
 /* Galeria */
-    #galeria .col-lg-4 {
-        margin: 0 !important;
-        padding: 25px;
-    }
-    #galeria img {
-        width: 100%;
-        height: 300px;
-    }
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+}
 
-    #galeria img:hover {
-        border: 5px solid #11110f;
-    }
+#galeria img {
+    width: 100%;
+    height: 300px;
+}
 
-    .imgrid {
-        width: 400px;
-        height: 400px;
-    }
+#galeria img:hover {
+    border: 5px solid #11110f;
+}
+
+.imgrid {
+    width: 400px;
+    height: 400px;
+}
 
 /** EMPIEZA PAG DE CONTACTO **/
 
@@ -186,28 +192,33 @@
     background-image: url(../IMAGENES/fondoPag.jpg);
     font-family: monospace;
 }
+
 .tamanañoacade {
     height: 600px !important;
     width: 95%;
-   
+
 }
+
 .element3 {
     min-width: auto;
     color: #f7f7f5;
     background-color: rgba(216, 129, 15, 0.548);
     border-radius: 10px;
 }
+
 .imgcentrada {
     width: 700px !important;
 }
+
 .linkaca {
     list-style-type: none;
 }
+
 .links {
     text-decoration: none;
     color: #f7940a;
     font-size: large;
-    
+
 }
 
 .imagencentrada {
@@ -215,6 +226,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .links {
     text-decoration: none;
     color: #f7f7f5;
