@@ -57,7 +57,7 @@
   height: 250px;
 }
 #galeria .col-lg-4 img:hover {
-  border: 5px solid hwb(60 17% 26%);
+  border: 5px solid hwb(29 9% 15%/0.685);
 }
 
 .barradecontenido {
@@ -67,10 +67,10 @@
   height: 45px;
   width: 45px;
 }
-.barradecontenido .navegador1 ul li a {
+.barradecontenido .navegador1 .navegador1 ul li a {
   font-size: 18px;
 }
-.barradecontenido .navegador1 ul li a:hover {
+.barradecontenido .navegador1 .navegador1 ul li a:hover {
   color: #f97007 !important;
 }
 
