@@ -1,8 +1,7 @@
+@import "./partials/"
+
 /** PAG DE INICO **/
-.grilla {
-    font-family: monospace;
-    overflow-x: hidden;
-    background-image: url(../IMAGENES/fondoPag.jpg);
+
     .barradecontenido {
     background-color: #504e4b;
         .navegador1 ul li a {
@@ -96,7 +95,7 @@
         }
     }
     /**TERMINA PAG DE GALERIA**/
-    
+
     /** EMPIEZA PAG DE CONTACTO **/
 
 }
