@@ -1,27 +1,4 @@
 @charset "UTF-8";
-.barradecontenido {
-  background-color: #504e4b;
-}
-
-.navegador1 ul li a {
-  font-size: 18px;
-}
-
-.navegador1 ul li a:hover {
-  color: #f97007 !important;
-}
-
-.piedepaginaa {
-  background-color: #504e4b;
-}
-
-/** PAG DE INICO **/
-.grilla {
-  font-family: monospace;
-  overflow-x: hidden;
-  background-image: url(../IMAGENES/fondoPag.jpg);
-}
-
 /**EMPIZA MAIN**/
 .element {
   font-style: unset;
@@ -43,37 +20,25 @@
   border-radius: 2%;
   margin: 15px;
 }
-
-.imganima:hover {
+.imgrafa .imganima:hover {
   box-shadow: 2rem 1rem 1rem #d66f0f;
 }
 
 /**TERMINA ASIDE**/
 /**EMPIEZA FOOTER**/
-.logotoro {
+.piedepaginaa {
+  background-color: #504e4b;
+  /** TERMINA FOOTER**/
+}
+.piedepaginaa .logotoro {
   height: 45px;
   width: 45px;
 }
-
-.socialesredes {
+.piedepaginaa .socialesredes {
   list-style-type: none;
 }
 
-.tamaniologo {
-  width: 35px;
-}
-
 /**EMPIEZA GRANDSLAMS**/
-.grilla2 {
-  background-image: url(../IMAGENES/ph2.jpg);
-  font-family: monospace;
-  display: grid;
-  grid-template-areas: "header" "main" "section" "footer";
-  grid-template-columns: 1fr;
-  grid-template-rows: 2fr 1fr 2fr;
-  height: 100vh;
-}
-
 .titulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f7f7f5;
@@ -81,21 +46,15 @@
   text-align: center;
 }
 
+/**EMPIEZA PRIMERA SECTION**/
 .tablas {
   font-family: Arial, Helvetica, sans-serif;
   border: none;
   text-align: center;
 }
 
-.tr_border {
-  color: #d66f0f;
-}
-
-.td_class {
-  border: none;
-  color: #ffffff;
-}
-
+/**TERMINA PRIMERA SECTION**/
+/**EMPIEZA SEGUNDA SECTION**/
 .infotorneos {
   display: flex;
   justify-content: center;
@@ -103,8 +62,7 @@
   border-radius: 3%;
   border-color: #f97007;
 }
-
-.element2 {
+.infotorneos .element2 {
   font-size: 15px;
   font-weight: 10%;
   text-align: center;
@@ -114,39 +72,17 @@
   border-radius: 10px;
 }
 
+/**TERMINA SEGUNDA SECTION**/
 /** EMPIEZA PAG GALERIA**/
-.grilla3 {
-  font-family: monospace;
-  overflow-x: hidden;
-  background-image: url(../IMAGENES/fondoPag.jpg);
-}
-
-.imgrid {
-  height: 200px;
-  width: 200px;
-  margin: 5px;
-}
-
-/* Galeria */
 #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px;
 }
-
-#galeria img {
-  width: 100%;
-  height: 300px;
-}
-
-#galeria img:hover {
+#galeria .col-lg-4 img:hover {
   border: 5px solid #11110f;
 }
 
-.imgrid {
-  width: 400px;
-  height: 400px;
-}
-
+/**TERMINA PAG DE GALERIA**/
 /** EMPIEZA PAG DE CONTACTO **/
 .main_contactos {
   display: flex;

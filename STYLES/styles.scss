@@ -1,15 +1,4 @@
-@import "./partials/header"
-
-
-.barradecontenido {
-    background-color: #504e4b;
-        .navegador1 ul li a {
-        font-size: 18px;
-            &:hover {
-            color: #f97007 !important;
-            }
-        }
-    }
+@import "./partials/header";
     /**EMPIZA MAIN**/
     .element {
         font-style: unset;
