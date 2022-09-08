@@ -1,0 +1,9 @@
+#galeria .col-lg-4 {
+    margin: 0 !important;
+    padding: 25px;
+    img{
+        &:hover {
+            border: 5px solid #11110f;
+        }
+    }
+}
