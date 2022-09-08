@@ -1,17 +1,40 @@
-.barradecontenido {
-  background-color: #504e4b;
+@charset "UTF-8";
+.titulo2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #f7f7f5;
+  font-style: inherit;
+  text-align: center;
 }
-.barradecontenido .navegador1 ul li a {
-  font-size: 18px;
+
+.tablas {
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  text-align: center;
 }
-.barradecontenido .navegador1 ul li a:hover {
-  color: #f97007 !important;
+
+.imgrafa {
+  width: 500px;
+  height: auto;
+  border-radius: 2%;
+  margin: 15px;
+}
+.imgrafa .imganima:hover {
+  box-shadow: 2rem 1rem 1rem #d66f0f;
 }
 
 .grilla {
   font-family: monospace;
   overflow-x: hidden;
   background-image: url(../IMAGENES/fondoPag.jpg);
+}
+
+.linkaca {
+  list-style-type: none;
+}
+.linkaca .links {
+  text-decoration: none;
+  color: #f7f7f5;
+  font-size: large;
 }
 
 .piedepaginaa {
@@ -23,6 +46,51 @@
 }
 .piedepaginaa .socialesredes {
   list-style-type: none;
+}
+
+#galeria .col-lg-4 {
+  margin: 0 !important;
+  padding: 25px;
+}
+#galeria .col-lg-4 img {
+  width: 100%;
+  height: 250px;
+}
+#galeria .col-lg-4 img:hover {
+  border: 5px solid hwb(60 17% 26%);
+}
+
+.barradecontenido {
+  background-color: #504e4b;
+}
+.barradecontenido .navegador1 .logotoro {
+  height: 45px;
+  width: 45px;
+}
+.barradecontenido .navegador1 ul li a {
+  font-size: 18px;
+}
+.barradecontenido .navegador1 ul li a:hover {
+  color: #f97007 !important;
+}
+
+.main_contactos {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 70%;
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d66f0f;
+  border-radius: 15px;
+  padding: 15px;
+}
+.main_contactos .cuadrito {
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
 }
 
 .element {
@@ -37,12 +105,37 @@
   border-radius: 10px;
 }
 
-.imgrafa {
-  width: 500px;
-  height: auto;
-  border-radius: 2%;
-  margin: 15px;
+.tamanañoacade {
+  height: 500px !important;
 }
-.imgrafa .imganima:hover {
-  box-shadow: 2rem 1rem 1rem #d66f0f;
+
+.element3 {
+  min-width: auto;
+  color: #f7f7f5;
+  background-color: rgba(216, 129, 15, 0.548);
+  border-radius: 10px;
+}
+
+.imgcentrada {
+  width: 700px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.infotorneos {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  border-radius: 3%;
+  border-color: #f97007;
+}
+.infotorneos .element2 {
+  font-size: 15px;
+  font-weight: 10%;
+  text-align: center;
+  line-height: 1.4;
+  color: #f7f7f5;
+  background-color: rgba(255, 119, 0, 0.66);
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
