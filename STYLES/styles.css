@@ -1,4 +1,31 @@
 @charset "UTF-8";
+.barradecontenido {
+  background-color: #504e4b;
+}
+.barradecontenido .navegador1 ul li a {
+  font-size: 18px;
+}
+.barradecontenido .navegador1 ul li a:hover {
+  color: #f97007 !important;
+}
+
+.grilla {
+  font-family: monospace;
+  overflow-x: hidden;
+  background-image: url(../IMAGENES/fondoPag.jpg);
+}
+
+.piedepaginaa {
+  background-color: #504e4b;
+}
+.piedepaginaa .logotoro {
+  height: 45px;
+  width: 45px;
+}
+.piedepaginaa .socialesredes {
+  list-style-type: none;
+}
+
 /**EMPIZA MAIN**/
 .element {
   font-style: unset;
@@ -25,19 +52,6 @@
 }
 
 /**TERMINA ASIDE**/
-/**EMPIEZA FOOTER**/
-.piedepaginaa {
-  background-color: #504e4b;
-  /** TERMINA FOOTER**/
-}
-.piedepaginaa .logotoro {
-  height: 45px;
-  width: 45px;
-}
-.piedepaginaa .socialesredes {
-  list-style-type: none;
-}
-
 /**EMPIEZA GRANDSLAMS**/
 .titulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;

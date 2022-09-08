@@ -1,4 +1,4 @@
-@import "./partials/header";
+@import "./partials/header", "./parti", "./partials/body", "./partials/footer"; 
     /**EMPIZA MAIN**/
     .element {
         font-style: unset;
@@ -24,18 +24,6 @@
         }
     }
     /**TERMINA ASIDE**/
-    /**EMPIEZA FOOTER**/
-    .piedepaginaa {
-        background-color: #504e4b;
-        .logotoro {
-            height: 45px;
-            width: 45px;
-        }
-    .socialesredes {
-        list-style-type: none;
-        }
-    /** TERMINA FOOTER**/   
-    }
 
     /**EMPIEZA GRANDSLAMS**/
     .titulo2 {
