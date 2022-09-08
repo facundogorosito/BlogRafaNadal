@@ -1,87 +1,73 @@
-.barradecontenido {
-    background-color: #504e4b;
-}
-
-.navegador1 ul li a {
-    font-size: 18px;
-}
-
-.navegador1 ul li a:hover {
-    color: #f97007 !important;
-}
-
-.piedepaginaa {
-    background-color: #504e4b;
-}
-
 /** PAG DE INICO **/
 .grilla {
     font-family: monospace;
     overflow-x: hidden;
     background-image: url(../IMAGENES/fondoPag.jpg);
+    .barradecontenido {
+    background-color: #504e4b;
+        .navegador1 ul li a {
+        font-size: 18px;
+            &:hover {
+            color: #f97007 !important;
+            }
+        }
+    }
+    /**EMPIZA MAIN**/
+    .element {
+        font-style: unset;
+        font-weight: bolder;
+        font-size: 15px;
+        font-weight: 10%;
+        text-align: center;
+        line-height: 1.4;
+        color: #f7f7f5;
+        background-color: rgba(255, 119, 0, 0.66);
+        border-radius: 10px;
+    }
+    /**TERMINA MAIN**/
+
+    /**EMPIEZA ASIDE**/
+    .imgrafa {
+        width: 500px;
+        height: auto;
+        border-radius: 02%;
+        margin: 15px;
+        .imganima:hover {
+            box-shadow: 2rem 1rem 1rem #d66f0f;
+        }
+    }
+    /**TERMINA ASIDE**/
+    /**EMPIEZA FOOTER**/
+    .piedepaginaa {
+        background-color: #504e4b;
+        .logotoro {
+            height: 45px;
+            width: 45px;
+        }
+    .socialesredes {
+        list-style-type: none;
+        }
+    /** TERMINA FOOTER**/   
+    }
+
+    /**EMPIEZA GRANDSLAMS**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
-
-/**EMPIZA MAIN**/
-
-.element {
-    font-style: unset;
-    font-weight: bolder;
-    font-size: 15px;
-    font-weight: 10%;
-    text-align: center;
-    line-height: 1.4;
-    color: #f7f7f5;
-    background-color: rgba(255, 119, 0, 0.66);
-    border-radius: 10px;
-}
-
-/**TERMINA MAIN**/
-
-/**EMPIEZA ASIDE**/
-.imgrafa {
-    width: 500px;
-    height: auto;
-    border-radius: 02%;
-    margin: 15px;
-}
-
-.imganima:hover {
-    box-shadow: 2rem 1rem 1rem #d66f0f;
-}
-
-/**TERMINA ASIDE**/
-
-/**EMPIEZA FOOTER**/
-
-.logotoro {
-    height: 45px;
-    width: 45px;
-}
-
-.socialesredes {
-    list-style-type: none;
-}
-
-.tamaniologo {
-    width: 35px;
-}
-
-/**EMPIEZA GRANDSLAMS**/
-.grilla2 {
-    background-image: url(../IMAGENES/ph2.jpg);
-    font-family: monospace;
-    display: grid;
-    grid-template-areas:
-        "header"
-        "main"
-        "section"
-        "footer"
-    ;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr 1fr 2fr;
-    height: 100vh;
-}
 
 .titulo2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
