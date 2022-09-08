@@ -1,76 +1,15 @@
 @import "./partials/header", "./partials/body", "./partials/footer", "./partials/mainIndex", "./partials/asideIndex"; 
 
-    /** EMPIEZA PAG DE CONTACTO **/
 
 
 
 
-.main_contactos {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 70%;
-    text-align: center;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d66f0f;
-    border-radius: 15px;
-    padding: 15px;
-}
-
-.cuadrito {
-    font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: left;
-
-}
 
 
-/**EMPIEZA PAG DE ACADEMIA**/
 
-.grilla5 {
-    overflow-x: hidden;
-    background-image: url(../IMAGENES/fondoPag.jpg);
-    font-family: monospace;
-}
 
-.tamanañoacade {
-    height: 600px !important;
-    width: 95%;
 
-}
 
-.element3 {
-    min-width: auto;
-    color: #f7f7f5;
-    background-color: rgba(216, 129, 15, 0.548);
-    border-radius: 10px;
-}
 
-.imgcentrada {
-    width: 700px !important;
-}
 
-.linkaca {
-    list-style-type: none;
-}
 
-.links {
-    text-decoration: none;
-    color: #f7940a;
-    font-size: large;
-
-}
-
-.imagencentrada {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.links {
-    text-decoration: none;
-    color: #f7f7f5;
-    font-size: large;
-}

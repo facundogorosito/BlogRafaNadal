@@ -1,0 +1,18 @@
+.main_contactos {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d66f0f;
+    border-radius: 15px;
+    padding: 15px;
+    .cuadrito {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        }
+}
