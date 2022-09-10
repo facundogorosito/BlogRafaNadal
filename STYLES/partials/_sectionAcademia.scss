@@ -1,11 +1,16 @@
-.tamanañoacade {
 
-}
 .element3 {
     min-width: auto;
+    font-family: $textos;
+    font-size: 30px;
     color: $colorsLetra;
     background-color: $colorsFondo;
     border-radius: $borderRadius;
+}
+.linkinfo {
+    font-family: $textos;
+    font-size: 18px;
+    color: $colorsLetra;
 }
 .imgcentrada {
     width: 700px !important;
