@@ -143,4 +143,11 @@
   color: #f7f7f5;
   background-color: #f97007;
   border-radius: 10px;
+}
+
+.boton {
+  border: none;
+  padding: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  border-bottom: 3px solid;
 }/*# sourceMappingURL=styles.css.map */
