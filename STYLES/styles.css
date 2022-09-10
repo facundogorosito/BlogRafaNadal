@@ -1,7 +1,7 @@
 @charset "UTF-8";
 .titulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: #f7f7f5;
+  color: colorsLetra;
   font-style: inherit;
   text-align: center;
 }
