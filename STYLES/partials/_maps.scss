@@ -1,12 +1,12 @@
 $fonts: (
-    letraBasica: monospace;
-    titulos: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    textos: Verdana, Geneva, Tahoma, sans-serif;
+    letraBasica: monospace
+
 );
-$borders (
-    $borderRadius: 10px;
+
+$borders: (
+    borderRadius: 10px
 );
-$colors (
-    colorsLetra: #f7f7f5;
-    colorsFondo: rgba(216, 129, 15, 0.548);
+
+$colors: (
+    colorsLetra: #f7f7f5
 );

@@ -1,16 +1,16 @@
 
 .element3 {
     min-width: auto;
-    font-family: $textos;
+    font-family:'Courier New', Courier, monospace;
     font-size: 30px;
-    color: $colorsLetra;
-    background-color: $colorsFondo;
-    border-radius: $borderRadius;
+    color: map-get($colors, colorsLetra );
+    background-color:beige;
+    border-radius: 15px;
 }
 .linkinfo {
-    font-family: $titulos;
+    font-family:'Courier New', Courier, monospace;
     font-size: 18px;
-    color: $colorsLetra;
+    color:aqua;
 }
 .imgcentrada {
     width: 700px !important;

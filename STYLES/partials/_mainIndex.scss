@@ -1,11 +1,11 @@
 .element {
-    font-family: $textos;
+    font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 15px;
     font-weight: 10%;
     text-align: center;
     line-height: 1.4;
-    color: $colorsLetra;
-    background-color: $colorsFondo;
-    border-radius: $borderRadius;
+    color:map-get($colors, colorsLetra );
+    background-color: white;
+    border-radius: 15px;
 }

@@ -2,7 +2,7 @@
     list-style-type: none;
     .links {
         text-decoration: none;
-        color: $colorsLetra;
+        color: map-get($colors, colorsLetra );
         font-size: large;
     }
 }

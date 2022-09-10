@@ -1,11 +1,11 @@
 .titulo2 {
-    font-family: $titulos;
-    color: $colorsLetra;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: map-get($colors, colorsLetra );
     font-style: inherit;
     text-align: center;
 }
 .tablas {
-    font-family: $textos;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border: none;
     text-align: center;
 }

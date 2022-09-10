@@ -1,5 +1,5 @@
 .grilla {
-    font-family: $letraBasica;
+    font-family: map-get($fonts, letraBasica);
     overflow-x: hidden;
     background-image: url(../IMAGENES/fondoPag.jpg);
 }

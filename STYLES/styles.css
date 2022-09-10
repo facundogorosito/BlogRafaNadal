@@ -1,12 +1,12 @@
 .titulo2 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: #f7f7f5;
   font-style: inherit;
   text-align: center;
 }
 
 .tablas {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border: none;
   text-align: center;
 }
@@ -14,7 +14,7 @@
 .imgrafa {
   width: 500px;
   height: auto;
-  border-radius: 10px;
+  border-radius: 30px;
   margin: 15px;
 }
 .imgrafa .imganima:hover {
@@ -84,7 +84,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #d66f0f;
-  border-radius: 10px;
+  border-radius: 30px;
   padding: 15px;
 }
 .main_contactos .cuadrito {
@@ -94,30 +94,30 @@
 }
 
 .element {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
   font-size: 15px;
   font-weight: 10%;
   text-align: center;
   line-height: 1.4;
   color: #f7f7f5;
-  background-color: rgba(216, 129, 15, 0.548);
-  border-radius: 10px;
+  background-color: white;
+  border-radius: 15px;
 }
 
 .element3 {
   min-width: auto;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 30px;
   color: #f7f7f5;
-  background-color: rgba(216, 129, 15, 0.548);
-  border-radius: 10px;
+  background-color: beige;
+  border-radius: 15px;
 }
 
 .linkinfo {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 18px;
-  color: #f7f7f5;
+  color: aqua;
 }
 
 .imgcentrada {
@@ -131,16 +131,16 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  border-radius: 10px;
+  border-radius: 15px;
   border-color: #f97007;
 }
 .infotorneos .element2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Courier New", Courier, monospace;
   font-size: 15px;
   font-weight: 10%;
   text-align: center;
   line-height: 1.4;
   color: #f7f7f5;
-  background-color: rgba(216, 129, 15, 0.548);
-  border-radius: 10px;
+  background-color: #f97007;
+  border-radius: 15px;
 }/*# sourceMappingURL=styles.css.map */
