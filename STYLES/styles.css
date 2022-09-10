@@ -1,7 +1,6 @@
-@charset "UTF-8";
 .titulo2 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  color: colorsLetra;
+  color: #f7f7f5;
   font-style: inherit;
   text-align: center;
 }
@@ -69,6 +68,7 @@
 }
 .barradecontenido .navegador1 ul li a {
   font-size: 18px;
+  transition: all 1s ease;
 }
 .barradecontenido .navegador1 ul li a:hover {
   color: #f97007 !important;
@@ -101,12 +101,8 @@
   text-align: center;
   line-height: 1.4;
   color: #f7f7f5;
-  background-color: rgba(255, 119, 0, 0.66);
+  background-color: rgba(216, 129, 15, 0.548);
   border-radius: 10px;
-}
-
-.tamanañoacade {
-  height: 500px !important;
 }
 
 .element3 {
@@ -136,6 +132,6 @@
   text-align: center;
   line-height: 1.4;
   color: #f7f7f5;
-  background-color: rgba(255, 119, 0, 0.66);
+  background-color: rgba(216, 129, 15, 0.548);
   border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
