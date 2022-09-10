@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     margin: auto;
-    border-radius: 15px;
+    border-radius: map-get($borders, borderRadius);
     border-color: #f97007;
     .element2 {
         font-family:'Courier New', Courier, monospace;
@@ -12,6 +12,6 @@
         line-height: 1.4;
         color:map-get($colors, colorsLetra );
         background-color: #f97007;
-        border-radius: 15px;
+        border-radius: map-get($borders, borderRadius);
     }
 }

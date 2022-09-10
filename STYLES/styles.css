@@ -14,7 +14,7 @@
 .imgrafa {
   width: 500px;
   height: auto;
-  border-radius: 30px;
+  border-radius: 10px;
   margin: 15px;
 }
 .imgrafa .imganima:hover {
@@ -84,7 +84,7 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #d66f0f;
-  border-radius: 30px;
+  border-radius: 10px;
   padding: 15px;
 }
 .main_contactos .cuadrito {
@@ -102,7 +102,7 @@
   line-height: 1.4;
   color: #f7f7f5;
   background-color: white;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .element3 {
@@ -111,7 +111,7 @@
   font-size: 30px;
   color: #f7f7f5;
   background-color: beige;
-  border-radius: 15px;
+  border-radius: 10px;
 }
 
 .linkinfo {
@@ -131,7 +131,7 @@
   display: flex;
   justify-content: center;
   margin: auto;
-  border-radius: 15px;
+  border-radius: 10px;
   border-color: #f97007;
 }
 .infotorneos .element2 {
@@ -142,5 +142,5 @@
   line-height: 1.4;
   color: #f7f7f5;
   background-color: #f97007;
-  border-radius: 15px;
+  border-radius: 10px;
 }/*# sourceMappingURL=styles.css.map */
