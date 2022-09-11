@@ -1,4 +1,4 @@
-.botonRoger, .botonRafa {
+.botonRafa {
   cursor: pointer;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -167,10 +167,21 @@
 }
 
 .botonRafa {
+  border: none;
   border-radius: 10px;
   background-color: rgba(246, 135, 7, 0.635);
+  color: rgb(37, 232, 11);
 }
 
 .botonRoger {
-  background-color: rgba(190, 9, 9, 0.6);
+  border: none;
+  cursor: pointer;
+  background-color: rgba(142, 186, 10, 0.467);
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f0ebee;
+  font-size: 15px;
+  font-weight: 500;
+  border-bottom: 5px solid #d10c8f;
 }/*# sourceMappingURL=styles.css.map */

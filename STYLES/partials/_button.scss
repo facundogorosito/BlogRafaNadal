@@ -13,13 +13,13 @@
 
 .botonRafa {
     @extend %botonBasico;
+    border: none;
     border-radius: 10px;
-    background-color: rgba(246, 135, 7, 0.635)
+    background-color: rgba(246, 135, 7, 0.635);
+    color: rgb(37, 232, 11);
 
 }
 
 .botonRoger {
-    @extend %botonBasico;
-    background-color: rgba(190, 9, 9, 0.6);
-
+    @include botones (rgba(142, 186, 10, 0.467),#d10c8f, #f0ebee);
 }

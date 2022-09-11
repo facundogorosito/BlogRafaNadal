@@ -1,0 +1,12 @@
+@mixin botones ($bgColor,$bordes,$texto) {
+    border: none;
+    cursor: pointer;
+    background-color: $bgColor;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $texto;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 5px solid $bordes;
+}
