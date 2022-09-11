@@ -1,3 +1,11 @@
+.botonRoger, .botonRafa {
+  cursor: pointer;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
 .titulo2 {
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #f7f7f5;
@@ -156,4 +164,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.botonRafa {
+  border-radius: 10px;
+  background-color: rgba(246, 135, 7, 0.635);
+}
+
+.botonRoger {
+  background-color: rgba(190, 9, 9, 0.6);
 }/*# sourceMappingURL=styles.css.map */

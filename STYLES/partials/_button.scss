@@ -12,13 +12,14 @@
 }
 
 .botonRafa {
+    @extend %botonBasico;
+    border-radius: 10px;
+    background-color: rgba(246, 135, 7, 0.635)
 
 }
 
 .botonRoger {
+    @extend %botonBasico;
+    background-color: rgba(190, 9, 9, 0.6);
 
-}
-
-.botonNovak {
-    
 }
