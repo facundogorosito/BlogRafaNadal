@@ -101,7 +101,7 @@
   text-align: center;
   line-height: 1.4;
   color: #f7f7f5;
-  background-color: white;
+  background-color: #777;
   border-radius: 10px;
 }
 
@@ -110,7 +110,7 @@
   font-family: "Courier New", Courier, monospace;
   font-size: 30px;
   color: #f7f7f5;
-  background-color: beige;
+  background-color: #777;
   border-radius: 10px;
 }
 
@@ -150,4 +150,10 @@
   padding: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   border-bottom: 3px solid;
+}
+
+.botton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */

@@ -4,7 +4,7 @@
     font-family:'Courier New', Courier, monospace;
     font-size: 30px;
     color: map-get($colors, colorsLetra );
-    background-color:beige;
+    background-color: #777;
     border-radius: map-get($borders, borderRadius);
 }
 .linkinfo {
