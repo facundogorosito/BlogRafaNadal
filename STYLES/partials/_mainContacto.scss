@@ -1,4 +1,4 @@
-.main_contactos {
+/**.main_contactos {
     display: flex;
     flex-direction: column;
     width: 30%;
@@ -15,4 +15,13 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-align: left;
         }
+}**/
+.main_contactos {
+    max-width: 25em;
+    padding: 1.3em;
+    margin: 0 auto;
+    background-color: rgbas (120, 119, 123, 0.3);
+    font-weight: bold;
+    border-radius: 0.5em;
+    box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
 }

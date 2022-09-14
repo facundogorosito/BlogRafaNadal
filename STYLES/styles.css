@@ -82,23 +82,32 @@
   color: #f97007 !important;
 }
 
+/**.main_contactos {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 70%;
+    text-align: center;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #d66f0f;
+    border-radius: map-get($borders, borderRadius);
+    padding: 15px;
+    .cuadrito {
+        font-size: 20px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: left;
+        }
+}**/
 .main_contactos {
-  display: flex;
-  flex-direction: column;
-  width: 30%;
-  height: 70%;
-  text-align: center;
-  margin-top: auto;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #d66f0f;
-  border-radius: 10px;
-  padding: 15px;
-}
-.main_contactos .cuadrito {
-  font-size: 20px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: left;
+  max-width: 25em;
+  padding: 1.3em;
+  margin: 0 auto;
+  background-color: rgbas 120, 119, 123, 0.3;
+  font-weight: bold;
+  border-radius: 0.5em;
+  box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
 }
 
 .element {

@@ -57,45 +57,51 @@
             </nav>
     </header>
     <main class="container">
-        <div>
-            <h1 class="text-center text-white p-4 fs-3 titulo2">Contacto</h1>
-        </div>
         <div class="row my-5">
-        
-            <form action="" method="post" class="main_contactos ">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <form action="" method="post" class="main_contactos">
+                <h1 class="display-5 text-center text-white p-4 fs-3 titulo2">Contacto</h1>
+                <div class="form-group">
                 <label class="cuadrito" for="Nombre">Nombre</label>
-                <br />
-                <input id="Nombre" type="text" placeholder="Nombre">
-                <br />
+                <input id="Nombre" type="text" maxlength="20" placeholder="Nombre" class="form-control">
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="Apellido">Apellido</label>
-                <br />
-                <input id="Apellido" type="text" placeholder="Apellido">
-                <br />
+                <input id="Apellido" type="text" maxlength="20" placeholder="Apellido" class="form-control">
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="dni">Documento</label>
-                <br />
-                <input id="dni" type="number" placeholder="Ingresa tu DNI">
-                <br />
+                <input id="dni" type="number" maxlength="20" placeholder="Ingresa tu DNI" class="form-control">
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="Email">Email</label>
-                <br />
-                <input id="Email" type="text" placeholder="Email">
-                <br />
+                <input id="Email" type="text" maxlength="20" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="Lugarderesidencia">Lugar de residencia</label>
-                <br />
-                <input id="Lugarderesidencia" type="text" placeholder="Lugar de residencia">
-                <br />
+                <input id="Lugarderesidencia" type="text" maxlength="20" placeholder="Lugar de residencia" class="form-control">
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="tel">Telefono</label>
-                <br />
-                <input id="tel" type="tel" placeholder="Numero de telefono">
-                <br />
+                <input id="tel" type="tel" maxlength="20" placeholder="Numero de telefono" class="form-control">
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="coment">Tenes algun comentario?</label>
-                <br />
-                <textarea id="coment" placeholder="Comentarios"></textarea>
-                <br />
+                <textarea id="coment" maxlength="20" placeholder="Comentarios" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
                 <label class="cuadrito" for="tyc">Quiero recibir el newsletter de RafaelNadal en mi email</label>
-                <input id="tyc" type="checkbox">
-                <br />
-                <button class="boton">Enviar</button>
+                <input id="tyc" type="checkbox" maxlength="20">
+                </div>
+                <div class="form-group">
+                <button type="submit" class="boton btn btn-warning">Enviar</button>
+                <a href="" class="btn btn-danger">Limpiar</a>
+                </div>
             </form>
+
+        </div>
+
+
     </main>
 
 
