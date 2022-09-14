@@ -109,6 +109,12 @@
   border-radius: 0.5em;
   box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
 }
+.main_contactos .cuadrito {
+  font-size: 12px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  color: rgb(248, 242, 242);
+}
 
 .element {
   font-family: "Courier New", Courier, monospace;
