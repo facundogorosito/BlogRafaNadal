@@ -55,6 +55,15 @@
   list-style-type: none;
 }
 
+input {
+  display: none;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+}
+
 #galeria .col-lg-4 {
   margin: 0 !important;
   padding: 25px;
