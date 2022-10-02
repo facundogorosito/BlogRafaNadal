@@ -116,6 +116,14 @@
   color: rgb(248, 242, 242);
 }
 
+.slide {
+  margin-top: 10px;
+}
+
+.slide img {
+  height: 75vh;
+}
+
 .element {
   font-family: "Courier New", Courier, monospace;
   font-weight: bolder;
