@@ -13,7 +13,7 @@ input {
     position: relative;
     margin: 40px 0;
 }
-h1::before{
+.titulogaleria::before{
     content: '';
     position: absolute;
     width: 100px;
@@ -27,17 +27,17 @@ h1::before{
 
 @keyframes animate{
     0%{
-        width: 300px;
+        width: 100px;
     }
     50%{
-        width: 400px;
+        width: 200px;
     }
     100%{
-        width: 300px;
+        width: 200px;
     }
 }
 .top-content {
-    
+
 }
 
 #galeria .col-lg-4 {
