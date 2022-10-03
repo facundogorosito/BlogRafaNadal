@@ -5,8 +5,9 @@
     border-radius: map-get($borders, borderRadius);
     border-color: #f97007;
     .element2 {
+        min-width: auto;
         font-family:'Courier New', Courier, monospace;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 10%;
         text-align: center;
         line-height: 1.4;
