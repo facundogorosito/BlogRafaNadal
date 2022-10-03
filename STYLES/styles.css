@@ -223,7 +223,7 @@ label:hover {
 .linkinfo {
   font-family: "Courier New", Courier, monospace;
   font-size: 18px;
-  color: aqua;
+  color: rgba(226, 94, 12, 0.901);
 }
 
 .imgcentrada {
