@@ -139,7 +139,7 @@ label:hover {
   position: relative;
 }
 
-#check2:checked ~ .container .photo-gallery video {
+#check2:checked ~ .container .photo-gallery .video {
   opacity: 1;
   transform: scale(1);
   position: relative;
@@ -173,24 +173,6 @@ label:hover {
   color: #f97007 !important;
 }
 
-/**.main_contactos {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    height: 70%;
-    text-align: center;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #d66f0f;
-    border-radius: map-get($borders, borderRadius);
-    padding: 15px;
-    .cuadrito {
-        font-size: 20px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        text-align: left;
-        }
-}**/
 .main_contactos {
   max-width: 25em;
   padding: 1.3em;
@@ -201,7 +183,7 @@ label:hover {
   box-shadow: inset 1px 1px 22px 4px rgba(0, 0, 0, 0.85);
 }
 .main_contactos .cuadrito {
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: left;
   color: rgb(248, 242, 242);

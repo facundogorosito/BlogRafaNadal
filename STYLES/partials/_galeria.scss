@@ -67,7 +67,7 @@ label:hover{
     position: relative;
 }
 
-#check2:checked ~ .container .photo-gallery video{
+#check2:checked ~ .container .photo-gallery .video{
     opacity: 1;
     transform: scale(1);
     position: relative;
