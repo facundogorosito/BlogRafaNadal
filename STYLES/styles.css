@@ -11,12 +11,14 @@
   color: #f7f7f5;
   font-style: inherit;
   text-align: center;
+  font-size: 25px;
 }
 
 .tablas {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   border: none;
   text-align: center;
+  font-size: 17px;
 }
 
 .imgrafa {
@@ -231,6 +233,12 @@ label:hover {
   align-items: center;
 }
 
+.videos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .infotorneos {
   display: flex;
   justify-content: center;
@@ -239,8 +247,9 @@ label:hover {
   border-color: #f97007;
 }
 .infotorneos .element2 {
+  min-width: auto;
   font-family: "Courier New", Courier, monospace;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 10%;
   text-align: center;
   line-height: 1.4;
