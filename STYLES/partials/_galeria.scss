@@ -36,42 +36,6 @@ input {
         width: 200px;
     }
 }
-.top-content {
-    background-color: rgba(114, 98, 98, 0.801);
-    width: 90%;
-    margin:  0 auto 20px auto;
-    height: 60px;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: 3px 3px 5px rgb(244, 108, 10);
-}
-
-label {
-    display: inline-block;
-    height: 100%;
-    margin: 0 20px;
-    line-height: 60px;
-    font-size: 20px;
-    color: rgb(227, 208, 189);
-    cursor: pointer;
-    transition: 0.5s;
-}
-label:hover{
-    color: rgb(250, 131, 4);
-}
-
-#check1:checked ~ .container .photo-gallery .pic{
-    opacity: 1;
-    transform: scale(1);
-    position: relative;
-}
-
-#check2:checked ~ .container .photo-gallery .video{
-    opacity: 1;
-    transform: scale(1);
-    position: relative;
-}
 
 #galeria .col-lg-4 {
     margin: 0 !important;
