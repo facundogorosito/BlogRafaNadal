@@ -5,14 +5,11 @@
     border-radius: map-get($borders, borderRadius);
     border-color: #f97007;
     .element2 {
-        min-width: auto;
         font-family:'Courier New', Courier, monospace;
-        font-size: 12px;
-        font-weight: 10%;
+        font-size: 10px;
         text-align: center;
-        line-height: 1.4;
         color:map-get($colors, colorsLetra );
-        background-color: #f97007;
+        background-color: #9d948d;
         border-radius: map-get($borders, borderRadius);
     }
 }
